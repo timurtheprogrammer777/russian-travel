@@ -1,0 +1,7 @@
+.footer__list-item{
+    list-style: none;
+}
+
+.footer__list-item + .footer__list-item{
+    margin-left: 18px;
+}

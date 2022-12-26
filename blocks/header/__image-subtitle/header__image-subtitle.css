@@ -1,0 +1,9 @@
+.header__image-subtitle{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 160px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 14px;
+}

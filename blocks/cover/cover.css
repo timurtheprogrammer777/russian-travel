@@ -1,0 +1,12 @@
+.cover{
+    /* padding: 0 0 90px 0; */
+    background-image: url(../../images/cover__background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 740px;
+    height: 100%;
+    position: relative;
+}
+
