@@ -5,3 +5,9 @@
 .footer__list-item + .footer__list-item{
     margin-left: 18px;
 }
+
+@media screen and (max-width:650px){
+    .footer__list-item + .footer__list-item{
+        margin: 32px 0 0 0;
+    }
+}

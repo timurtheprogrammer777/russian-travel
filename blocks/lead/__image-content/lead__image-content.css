@@ -4,3 +4,17 @@
     flex-direction: column; */
     /* margin: 0 auto; */
 }
+
+@media(max-width:768px){
+    .lead__image-content{
+        width: 100%;
+        margin:  0 auto;
+    }
+}
+
+@media(max-width:550px){
+    .lead__image-content{
+        width: 100%;
+        margin:  0 auto;
+    }
+}
