@@ -1,3 +1,19 @@
 .place__text{
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    grid-area: place__text;
+    /* width: 50%; */
+    margin: 0 0 0 40px;
 }
+
+@media screen and (max-width:1024px){
+    .place__text{
+        margin: 0 0 0 32px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .place__text{
+        margin: 0 0 0 28px;
+    }
+}
+

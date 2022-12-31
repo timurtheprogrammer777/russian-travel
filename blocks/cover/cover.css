@@ -8,8 +8,27 @@
     min-height: 740px;
     height: 100%;
     position: relative;
-
+    object-fit: cover;
+    object-position: center;
     /* object-fit: cover;
     object-position: center; */
 }
 
+
+@media screen and (max-width:1024px){
+    .cover{
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cover{
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .cover{
+        min-height: 200px;
+    }
+}

@@ -3,8 +3,23 @@
     flex-direction: column;
     /* max-width: 460px; */
     /* width: 50%; */
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     /* align-items: flex-end; */
     /* align-self: baseline; */
-    width: 49%;
+    /* width: 49%; */
+    grid-area: place__website;
+    margin: auto 0 50px 40px;
 }
+
+@media screen and (max-width:1024px){
+    .place__website{
+        margin: 0 0 0 32px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .place__website{
+        margin: 0 0 0 28px;
+    }
+}
+

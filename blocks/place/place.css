@@ -1,5 +1,9 @@
 .place{
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 90px 0;
+    /* padding: 0 0 70px 0; */
+    margin: 0 0 70px 0;
+    display: grid;
+    grid-template-areas:
+    'place__title place__website'
+    'place__image place__text';
+
 }

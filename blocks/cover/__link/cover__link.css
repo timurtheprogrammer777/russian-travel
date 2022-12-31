@@ -7,7 +7,9 @@
     text-decoration: none;
     min-height: 740px;
     height: 100%;
-        
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
     /* object-fit: cover;
     object-position: center; */
 }
@@ -20,8 +22,31 @@
     height: 100%;
     background-color: rgba(42, 44, 47, .3);
     transition: all .3s;
+    object-fit: cover;
+    object-position: center;
 }
 .cover__link:hover::before{
     background-color: rgba(42, 44, 47, .8);
 }
 
+/* width:100%;
+padding-bottom:100%; */
+
+
+@media screen and (max-width:1024px){
+    .cover__link{
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cover__link{
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .cover__link{
+        min-height: 200px;
+    }
+}
