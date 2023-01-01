@@ -1,6 +1,7 @@
 .lead__title{
     max-width: 720px;
     margin: 56px auto 0;
+    padding: 0;
     text-align: center;
     color: #fff;
     font-size:96px;
@@ -8,10 +9,12 @@
     line-height: 100px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .lead__title{
-        font-size: 60px;
-        line-height: 60px;
+        max-width: 720px;
+        font-size: 50px;
+        line-height: 50px;
+        padding: 0 24px;
     }
 }
 
@@ -19,5 +22,6 @@
     .lead__title{
         font-size: 40px;
         line-height: 44px;
+        padding: 0 16px;
     }
 }

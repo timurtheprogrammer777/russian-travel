@@ -3,17 +3,24 @@
     grid-area: place__text;
     /* width: 50%; */
     margin: 0 0 0 40px;
+    /* min-width: 484px; */
 }
 
 @media screen and (max-width:1024px){
     .place__text{
+        /* min-width: 456px; */
         margin: 0 0 0 32px;
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .place__text{
-        margin: 0 0 0 28px;
+        margin: 0 auto 0 0;
     }
 }
 
+@media screen and (max-width:400px){
+    .place__text{
+        padding: 0 16px 0;
+    }
+}

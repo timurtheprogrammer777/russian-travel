@@ -17,9 +17,14 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .place__website{
-        margin: 0 0 0 28px;
+        margin: 0 auto 32px 0;
     }
 }
 
+@media screen and (max-width:400px){
+    .place__website{
+        padding: 0 16px 0;
+    }
+}

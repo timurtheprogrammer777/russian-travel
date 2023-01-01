@@ -5,5 +5,17 @@
     grid-template-areas:
     'place__title place__website'
     'place__image place__text';
+    grid-template-columns: 1fr 1fr;
 
+}
+
+@media screen and (max-width:767px){
+    .place{
+        grid-template-areas:
+    'place__title'
+    'place__website'
+    'place__image '
+    'place__text';
+    grid-template-columns: 1fr;
+    }
 }

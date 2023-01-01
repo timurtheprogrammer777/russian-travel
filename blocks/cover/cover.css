@@ -5,11 +5,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    max-width: 1184px;
     min-height: 740px;
     height: 100%;
     position: relative;
     object-fit: cover;
     object-position: center;
+    margin: 0 auto;
+    /* margin: 0 48px 0 ; */
     /* object-fit: cover;
     object-position: center; */
 }
@@ -17,18 +20,29 @@
 
 @media screen and (max-width:1024px){
     .cover{
+        max-width: 1024px;
         min-height: 640px;
     }
 }
 
 @media screen and (max-width:768px){
     .cover{
+        max-width: 768px;
         min-height: 480px;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .cover{
+        max-width: 550px;
+        min-height: 350px;
     }
 }
 
 @media screen and (max-width:400px){
     .cover{
+        max-width: 400px;
         min-height: 200px;
     }
 }
