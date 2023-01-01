@@ -1,14 +1,10 @@
 .place__text{
-    /* margin-left: 40px; */
     grid-area: place__text;
-    /* width: 50%; */
     margin: 0 0 0 40px;
-    /* min-width: 484px; */
 }
 
 @media screen and (max-width:1024px){
     .place__text{
-        /* min-width: 456px; */
         margin: 0 0 0 32px;
     }
 }

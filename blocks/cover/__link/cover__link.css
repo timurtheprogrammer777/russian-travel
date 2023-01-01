@@ -12,8 +12,6 @@
     object-position: center;
     margin: 0;
     padding: 0;
-    /* object-fit: cover;
-    object-position: center; */
 }
 .cover__link::before{
     content: '';
@@ -30,9 +28,6 @@
 .cover__link:hover::before{
     background-color: rgba(42, 44, 47, .8);
 }
-
-/* width:100%;
-padding-bottom:100%; */
 
 
 @media screen and (max-width:1024px){

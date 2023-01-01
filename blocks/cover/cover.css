@@ -1,5 +1,4 @@
 .cover{
-    /* padding: 0 0 90px 0; */
     background-image: url(../../images/cover__background.jpg);
     background-position: center;
     background-size: cover;
@@ -12,9 +11,6 @@
     object-fit: cover;
     object-position: center;
     margin: 0 auto;
-    /* margin: 0 48px 0 ; */
-    /* object-fit: cover;
-    object-position: center; */
 }
 
 

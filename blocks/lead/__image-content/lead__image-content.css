@@ -1,9 +1,3 @@
-.lead__image-content{
-    /* max-width: 985px; */
-    /* display: flex;
-    flex-direction: column; */
-    /* margin: 0 auto; */
-}
 
 @media(max-width:768px){
     .lead__image-content{

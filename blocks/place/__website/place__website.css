@@ -1,12 +1,6 @@
 .place__website{
     display: flex;
     flex-direction: column;
-    /* max-width: 460px; */
-    /* width: 50%; */
-    /* justify-content: flex-end; */
-    /* align-items: flex-end; */
-    /* align-self: baseline; */
-    /* width: 49%; */
     grid-area: place__website;
     margin: auto 0 50px 40px;
 }
