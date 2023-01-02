@@ -6,6 +6,11 @@
     color: #fff;
     cursor: pointer;
     padding: 0;
+    text-decoration: none;
+}
+
+.header__lang-link:hover{
+    border-bottom: 1px solid #fff;
 }
 
 .header__lang-link + .header__lang-link{

@@ -4,14 +4,19 @@
     grid-area: place__website;
     margin: auto 0 50px 40px;
 }
-
+@media screen and (max-width:1280px){
+    .place__website{
+        margin: auto auto 48px 40px;
+        max-width: 456px;
+    }
+}
 @media screen and (max-width:1024px){
     .place__website{
-        margin: 0 0 0 32px;
+        margin: auto 0 48px 32px;
     }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:700px){
     .place__website{
         margin: 0 auto 32px 0;
     }
@@ -19,6 +24,6 @@
 
 @media screen and (max-width:400px){
     .place__website{
-        padding: 0 16px 0;
+        margin: auto 16px 32px;
     }
 }
