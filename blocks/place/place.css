@@ -17,6 +17,12 @@
     }
 }
 
+/* @media screen and (max-width:1024px){
+    .place{
+        grid-template-columns: 440px 456px;
+    }
+} */
+
 
 @media screen and (max-width:700px){
     .place{
@@ -28,8 +34,9 @@
     grid-template-columns: 1fr;
     }
 }
-@media screen and (max-width:320px){
+/* @media screen and (max-width:320px){
     .place{
         margin: 0 0 50px 0;
+        grid-template-rows: 288px  320px 288px 576px;
     }
-}
+} */

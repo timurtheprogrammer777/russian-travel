@@ -12,7 +12,12 @@
 }
 @media screen and (max-width:1024px){
     .place__website{
-        margin: auto 0 48px 32px;
+        margin: auto 0 48px 10px;
+    }
+}
+@media screen and (max-width:768px){
+    .place__website{
+        margin: auto 0 48px 28px;
     }
 }
 
